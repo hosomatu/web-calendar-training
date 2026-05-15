@@ -8,9 +8,10 @@ services:
       - "8080:80"
     volumes:
       - ./content:/usr/share/nginx/html
-  app: # 他のコンテナからappで名前解決できる
+  app:
     image: node:22
-    working_dir: /app
+    working_dir: /backend
     volumes:
-      - ./app:/app
+      - ./backend:/backend
+      - ./content:/content
     command: node server.js
