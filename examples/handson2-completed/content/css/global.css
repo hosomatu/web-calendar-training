@@ -1,0 +1,16 @@
+table {
+  border: 2px solid rgb(140 140 140);
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid rgb(140 140 140);
+}
+
+.sun {
+  color: brown;
+}
+
+.sat {
+  color: blue;
+}
