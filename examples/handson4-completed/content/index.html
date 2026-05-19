@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calendar</title>
+  <link href="css/global.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Let's Study Web!</h1>
+  <p>
+    Create your calendar.
+  </p>
+  <table>
+    <caption>
+      {{CALENDAR_TITLE}}
+    </caption>
+    <nav>{{CALENDAR_NAV}}</nav>
+    <thead>
+      <tr>
+        <th scope="col" class="sun">SUN</th>
+        <th >MON</th>
+        <th >TUE</th>
+        <th >WED</th>
+        <th >THU</th>
+        <th >FRI</th>
+        <th scope="col" class="sat">SAT</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{CALENDAR_BODY}}
+    </tbody>
+  </table>
+  <script src="javascript/global.js"></script>
+</body>
+
+</html>

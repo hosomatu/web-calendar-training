@@ -65,10 +65,12 @@ open http://localhost:8080
 │   ├── javascript/
 │   │   └── global.js
 │   └── image/
-├── backend/
-│   └── server.js
-└── handson/
-    ├── 01-html-css.md
-    ├── 02-javascript.md
-    └── 03-backend.md
+├── handson/
+│   ├── 01-html-css.md
+│   ├── 02-javascript.md
+│   ├── 03-backend.md
+│   └── 04-dynamic-calendar.md
+└── examples/
+    ├── blog-webserver.md
+    └── handson4-completed/   ← ハンズオン4完了時点のコード一式
 ```

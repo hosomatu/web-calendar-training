@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    image: nginx
+    build: ./
+    ports:
+      - "8080:80"
+    volumes:
+      - ./content:/usr/share/nginx/html
+  app:
+    image: node:22
+    working_dir: /backend
+    volumes:
+      - ./backend:/backend
+      - ./content:/content
+    command: node server.js
