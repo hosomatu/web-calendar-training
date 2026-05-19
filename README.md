@@ -72,5 +72,10 @@ open http://localhost:8080
 │   └── 04-dynamic-calendar.md
 └── examples/
     ├── blog-webserver.md
-    └── handson4-completed/   ← ハンズオン4完了時点のコード一式
+    ├── handson1-completed/
+    ├── handson2-completed/
+    ├── handson3-completed/
+    └── handson4-completed/
 ```
+
+`examples/` 配下には各ハンズオン完了時点のコード一式が入っています。詰まったときの参考にしてください。
