@@ -8,15 +8,15 @@
 </head>
 
 <body>
-  <h1>Welcome to Fusic!</h1>
-  <caption>{{CALENDAR_TITLE}}</caption>
+  <h1>Let's Study Web!</h1>
   <p>
     Create your calendar.
   </p>
   <table>
     <caption>
-      2026年5月のカレンダー
+      {{CALENDAR_TITLE}}
     </caption>
+    <nav>{{CALENDAR_NAV}}</nav>
     <thead>
       <tr>
         <th scope="col" class="sun">SUN</th>
@@ -29,54 +29,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td data-day="0426">26<div class="kibun">気分を登録</div></td>
-        <td data-day="0427">27<div class="kibun">気分を登録</div></td>
-        <td data-day="0428">28<div class="kibun">気分を登録</div></td>
-        <td data-day="0429">29<div class="kibun">気分を登録</div></td>
-        <td data-day="0430">30<div class="kibun">気分を登録</div></td>
-        <td data-day="0501">1<div class="kibun">気分を登録</div></td>
-        <td data-day="0502">2<div class="kibun">気分を登録</div></td>
-      </tr>
-      <tr>
-        <td data-day="0503">3<div class="kibun">気分を登録</div></td>
-        <td data-day="0504">4<div class="kibun">気分を登録</div></td>
-        <td data-day="0505">5<div class="kibun">気分を登録</div></td>
-        <td data-day="0506">6<div class="kibun">気分を登録</div></td>
-        <td data-day="0507">7<div class="kibun">気分を登録</div></td>
-        <td data-day="0508">8<div class="kibun">気分を登録</div></td>
-        <td data-day="0509">9<div class="kibun">気分を登録</div></td>
-      </tr>
-      <tr>
-        <td data-day="0510">10<div class="kibun">気分を登録</div></td>
-        <td data-day="0511">11<div class="kibun">気分を登録</div></td>
-        <td data-day="0512">12<div class="kibun">気分を登録</div></td>
-        <td data-day="0513">13<div class="kibun">気分を登録</div></td>
-        <td data-day="0514">14<div class="kibun">気分を登録</div></td>
-        <td data-day="0515">15<div class="kibun">気分を登録</div></td>
-        <td data-day="0516">16<div class="kibun">気分を登録</div></td>
-      </tr>
-      <tr>
-        <td data-day="0517">17<div class="kibun">気分を登録</div></td>
-        <td data-day="0518">18<div class="kibun">気分を登録</div></td>
-        <td data-day="0519">19<div class="kibun">気分を登録</div></td>
-        <td data-day="0520">20<div class="kibun">気分を登録</div></td>
-        <td data-day="0521">21<div class="kibun">気分を登録</div></td>
-        <td data-day="0522">22<div class="kibun">気分を登録</div></td>
-        <td data-day="0523">23<div class="kibun">気分を登録</div></td>
-      </tr>
-      <tr>
-        <td data-day="0524">24<div class="kibun">気分を登録</div></td>
-        <td data-day="0525">25<div class="kibun">気分を登録</div></td>
-        <td data-day="0526">26<div class="kibun">気分を登録</div></td>
-        <td data-day="0527">27<div class="kibun">気分を登録</div></td>
-        <td data-day="0528">28<div class="kibun">気分を登録</div></td>
-        <td data-day="0529">29<div class="kibun">気分を登録</div></td>
-        <td data-day="0530">30<div class="kibun">気分を登録</div></td>
-      </tr>
-      <tr>
-        <td data-day="0531">31<div class="kibun">気分を登録</div></td>
-      </tr>
+      {{CALENDAR_BODY}}
     </tbody>
   </table>
   <script src="javascript/global.js"></script>
